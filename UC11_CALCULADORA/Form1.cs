@@ -129,29 +129,8 @@ namespace UC11_CALCULADORA
 
             if (operacao == "soma")
             {
-                resultado = valor1 + valor2;
-                textBox1.Text = "";
-                textBox1.Text = resultado.ToString();
-            }
-            if (operacao == "sub")
-            {
-                resultado = valor1 - valor2;
-                textBox1.Text = "";
-                textBox1.Text = resultado.ToString();
-            }
-            if (operacao == "multi")
-            {
-                resultado = valor1 * valor2;
-                textBox1.Text = "";
-                textBox1.Text = resultado.ToString();
-            }
-            if (operacao == "divi")
-            {
-                resultado = valor1 / valor2;
-                textBox1.Text = "";
-                textBox1.Text = resultado.ToString();
-            }
-
+            resultado = valor1 + valor2;
+            textBox1.Text = "";
         }
     }
 }
